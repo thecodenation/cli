@@ -1,4 +1,4 @@
-class Cli < Formula
+class Codenation < Formula
   desc "Code:Nation CLI"
   homepage "https://github.com/thecodenation/cli"
   url "https://s3-us-west-1.amazonaws.com/codenation-cli/latest/codenation_macos.tar.gz"
@@ -9,6 +9,6 @@ class Cli < Formula
   #depends_on "zsh"
 
   def install
-    bin.install "cli"
+    bin.install "codenation"
   end
 end
