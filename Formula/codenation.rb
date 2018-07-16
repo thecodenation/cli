@@ -3,10 +3,7 @@ class Codenation < Formula
   homepage "https://github.com/thecodenation/cli"
   url "https://s3-us-west-1.amazonaws.com/codenation-cli/latest/codenation_macos.tar.gz"
   version "latest"
-  #sha256 "9ee30fc358fae8d248a2d7538957089885da321dca3f09e3296fe2058e7fff74"
-
-  #depends_on "git"
-  #depends_on "zsh"
+  sha256 "7022138f49eec5fae19796aa20b8d8c8cc1a4cdef57c3bb29ff815bd100b776b"
 
   def install
     bin.install "codenation"
