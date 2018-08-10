@@ -1,9 +1,9 @@
 class Codenation < Formula
   desc "Code:Nation CLI"
   homepage "https://github.com/thecodenation/cli"
-  url "https://s3-us-west-1.amazonaws.com/codenation-cli/v0.1.3/codenation_0.1.3_darwin_amd64.tar.gz"
-  version "v0.1.3"
-  sha256 "50b1dfb7b0c035fa0b2ff183280dc049d8cba182bf3b85ba2340bff69d764331"
+  url "https://s3-us-west-1.amazonaws.com/codenation-cli/v0.1.4/codenation_0.1.4_darwin_amd64.tar.gz"
+  version "v0.1.4"
+  sha256 "16b4e20d3a527a1026a63c6dfbecf018db276f5cbdd1b60ab8b16160785f09ba"
 
   def install
     bin.install "codenation"
